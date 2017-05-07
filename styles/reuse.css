@@ -4,6 +4,21 @@ body {
     font: 12px/1.5 "Microsoft YaHei", sans-serif;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.clearfix::after {
+    display: table;
+
+    clear: both;
+
+    content: ' ';
+}
+
 /**
  * 头部样式
  */
@@ -56,8 +71,6 @@ body {
 
     margin: 10px;
     padding: 4px;
-
-    list-style: none;
 }
 
 #skin li {
@@ -129,12 +142,55 @@ body {
     bottom: 0;
 
     width: 100%;
-    height: 37px;
 
     line-height: 37px;
 
-    background: #000;
+    background: #4a4a4a;
 }
+
+.mainNav .nav {
+    margin-left: 25px;
+}
+
+.mainNav ul li {
+    float: left;
+    position: relative;
+
+    margin-right: 14px;
+}
+
+.mainNav ul li a {
+    padding: 0 8px;
+
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+}
+
+.mainNav ul li a {
+    text-decoration: none;
+}
+
+.mainNav ul li a:hover {
+    text-decoration: underline;;
+}
+
+.jnNav {
+    position: absolute;
+    z-index: 1;
+
+    width: 474px;
+
+    border: 1px solid #b1b1b1;
+    border-top: none;
+
+    background: #fff;
+
+    /* for test */
+    height: 100px;
+}
+
+
 
 /* TODO: position top 100% 貌似更好维护，看看 mdn 百分值是怎么求的 */
 
