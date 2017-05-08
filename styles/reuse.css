@@ -11,6 +11,12 @@ ul {
     list-style: none;
 }
 
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
 .clearfix::after {
     display: table;
 
@@ -159,7 +165,7 @@ ul {
     margin-right: 14px;
 }
 
-.mainNav ul li a {
+.nav-link {
     padding: 0 8px;
 
     font-weight: bold;
@@ -179,15 +185,56 @@ ul {
     position: absolute;
     z-index: 1;
 
-    width: 474px;
+    width: 450px;
 
     border: 1px solid #b1b1b1;
     border-top: none;
+    padding: 10px 12px;
 
     background: #fff;
+}
 
-    /* for test */
-    height: 100px;
+.jnNav dl {
+    padding: 8px 0;
+}
+
+.jnNav dl:nth-child(1) {
+    padding-top: 0;
+}
+
+.jnNav dl:nth-child(2) {
+    border-top: 1px dashed #c4c4c4;
+}
+
+.jnNav dt,
+.jnNav dd {
+    float: left;
+}
+
+.jnNav dt {
+    width: 84px;
+
+    padding: 4px 3px;
+
+    line-height: 16px;
+    text-align: center;
+}
+
+.jnNav dt a {
+    color: #000;
+    font-weight: bold;
+}
+
+.jnNav dd {
+    width: 360px;
+}
+
+.jnNav dd em {
+    /*float: left;*/
+}
+
+.jnNav a {
+
 }
 
 
