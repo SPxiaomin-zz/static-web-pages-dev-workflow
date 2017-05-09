@@ -160,12 +160,13 @@ dd {
 
 .mainNav ul li {
     float: left;
-    position: relative;
 
     margin-right: 14px;
 }
 
 .nav-link {
+    display: block;
+
     padding: 0 8px;
 
     font-weight: bold;
@@ -178,10 +179,12 @@ dd {
 }
 
 .mainNav ul li a:hover {
-    text-decoration: underline;;
+    text-decoration: underline;
 }
 
 .jnNav {
+    display: none;
+
     position: absolute;
     z-index: 1;
 
@@ -230,14 +233,19 @@ dd {
 }
 
 .jnNav dd em {
-    /*float: left;*/
+    float: left;
+
+    margin: 5px 0;
+    border-right: 1px solid #ccc;
+    padding: 0 8px;
+
+    font-style: normal;
+    line-height: 14px;
 }
 
-.jnNav a {
-
+.jnNav dd a {
+    color: #666;
 }
-
-
 
 /* TODO: position top 100% 貌似更好维护，看看 mdn 百分值是怎么求的 */
 
@@ -251,10 +259,11 @@ dd {
 
     margin: 0 auto;
     padding: 10px 0;
-
-    /* for test */
-    background: #389dc3;
 }
+
+/**
+ * 主体样式之商品分类样式
+ */
 
 #jnCatelog {
     float: left;
@@ -263,8 +272,26 @@ dd {
     height: 560px;
 
     margin: 0 11px 0 0;
+}
 
-    background: #031928;
+#jnCatelog h2 {
+    margin: 0;
+
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    text-indent: 13px;
+
+    background: #6e6e6e;
+}
+
+.jnCateinfo {
+    width: 165px;
+    height: 524px;
+
+    border: 1px solid #6e6e6e;
+    border-top: none;
+    padding: 5px 10px 0;
 }
 
 /**
