@@ -294,6 +294,44 @@ dd {
     padding: 5px 10px 0;
 }
 
+.jnCateinfo h3 {
+    margin: 0;
+    border-bottom: 1px solid #eee;
+
+    font-size: 100%;
+    line-height: 24px;
+}
+
+.jnCateinfo ul {
+    padding: 0 2px 8px;
+}
+
+.jnCateinfo li {
+    float: left;
+    position: relative;
+
+    width: 79px;
+
+    line-height: 24px;
+}
+
+.jnCateinfo a {
+    color: #444;
+    text-decoration: none;
+}
+
+.jnCateinfo a:hover {
+    color: #008cd7;
+}
+
+.jnCateinfo a.promoted {
+
+}
+
+.jnCateinfo .hot {
+
+}
+
 /**
  * 底部样式
  */
