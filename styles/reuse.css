@@ -308,7 +308,6 @@ dd {
 
 .jnCateinfo li {
     float: left;
-    position: relative;
 
     width: 79px;
 
@@ -325,11 +324,16 @@ dd {
 }
 
 .jnCateinfo a.promoted {
-
+    color: #f9044e;
 }
 
 .jnCateinfo .hot {
+    position: absolute;
 
+    width: 21px;
+    height: 16px;
+
+    background: url(../images/hot.gif) no-repeat;
 }
 
 /**
@@ -344,7 +348,4 @@ dd {
 
     color: #666;
     text-align: center;
-
-    /* for test */
-    background: #b438c3;
 }

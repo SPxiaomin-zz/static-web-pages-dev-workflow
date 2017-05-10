@@ -1,0 +1,18 @@
+#jnImageroll {
+    float: left;
+    position: relative;
+
+    width: 550px;
+    height: 321px;
+
+    margin-right: 11px;
+}
+
+#jnImageroll img {
+    position: absolute;
+}
+
+#jnImageroll div {
+    position: absolute;
+    bottom: 0;
+}
