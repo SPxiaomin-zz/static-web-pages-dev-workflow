@@ -16,3 +16,32 @@
     position: absolute;
     bottom: 0;
 }
+
+#jnImageroll div a {
+    float: left;
+
+    width: 79px;
+    height: 36px;
+
+    margin-right: 1px;
+    padding: 5px 15px;
+
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+
+    background: #444;
+}
+
+#jnImageroll div span {
+    display: block;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#jnImageroll .chos {
+    background: url(../images/adindex.gif) no-repeat center 43px #37a7d7;
+}
