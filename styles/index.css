@@ -1,3 +1,7 @@
+/**
+ * jnImageroll
+ */
+
 #jnImageroll {
     float: left;
     position: relative;
@@ -44,4 +48,35 @@
 
 #jnImageroll .chos {
     background: url(../images/adindex.gif) no-repeat center 43px #37a7d7;
+}
+
+/**
+ * jnNotice
+ */
+
+#jnNotice {
+    float: left;
+
+    width: 230px;
+    height: 321px;
+}
+
+#jnMiaosha {
+    height: 176px;
+
+    margin-bottom: 10px;
+}
+
+.JS_css3 img {
+    transition: 1s all;
+}
+
+.JS_css3:hover img {
+    transform: rotate(720deg);
+}
+
+#jnNoticeInfo {
+    height: 133px;
+
+    border: 1px solid #dfdfdf;
 }
