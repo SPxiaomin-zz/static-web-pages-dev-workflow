@@ -80,3 +80,40 @@
 
     border: 1px solid #dfdfdf;
 }
+
+#jnNoticeInfo h2 {
+    margin: 0;
+    border-bottom: 1px solid #dfdfdf;
+
+    font-size: inherit;
+    line-height: 23px;
+    text-indent: 12px;
+}
+
+#jnNoticeInfo ul {
+    padding: 6px 2px 0 12px;
+
+    line-height: 20px;
+}
+
+#jnNoticeInfo a {
+    color: #666;
+    text-decoration: none;
+}
+
+#jnNoticeInfo a:hover {
+    color: #008cd7;
+}
+
+#tooltip {
+    display: none;
+    
+    position: absolute;
+
+    border: 1px solid #333;
+    padding: 1px;
+
+    color: #333;
+
+    background: #f7f5d1;
+}
